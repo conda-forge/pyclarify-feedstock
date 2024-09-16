@@ -1,5 +1,5 @@
 {% set name = "pyclarify" %}
-{% set version = "0.6.3" %}
+{% set version = "0.6.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyclarify-{{ version }}.tar.gz
-  sha256: fdc7c3b2779763094bacaca12c6cc7fcdecf908cbd685fb26bc7cdf9fd52934c
+  sha256: a7b2b0dab433adc2a775429a0c09d3140b07379886da839c731d5133c42eff40
 
 build:
   noarch: python
